@@ -1,28 +1,41 @@
-# 🏡 New Zealand Household Income Analysis
+# New Zealand Household Income Analysis
 
-## Overview
+## Project Overview
 
-This project analyses household income across New Zealand using official data from Stats NZ's *Household Income and Housing-Cost Statistics (Year ended June 2025)*.
+This project explores regional household income across New Zealand using official data from Stats NZ. The analysis investigates differences in household income between regions and compares multiple income measures through data visualisation and exploratory data analysis.
 
-The analysis explores regional differences in household income, compares average and median incomes, and examines how household income changes after taxes and housing costs. The project demonstrates a complete data analysis workflow using Python, from data cleaning to visualisation and interpretation.
+This project was completed using Python in Jupyter Notebook as part of my data analytics portfolio.
 
-## Objectives
-
-- Clean and prepare the dataset
-- Explore regional household income patterns
-- Compare average and median household income
-- Analyse different household income measures
-- Communicate findings through visualisations
+---
 
 ## Dataset
 
 **Source:** Stats NZ
 
-**Dataset:** Household Income and Housing-Cost Statistics (Year ended June 2025)
+**Dataset:** Household income and housing-cost statistics (Year ended June 2025)
 
-**Table Used:** Average and median annual household gross, disposable, equivalised disposable, and equivalised disposable after-housing-costs income by region.
+The dataset contains household income measures for each New Zealand region, including:
 
-## Tools & Libraries
+- Average household income
+- Median household income
+- Disposable household income
+- Equivalised disposable income
+- Equivalised disposable income after housing costs
+
+---
+
+## Objectives
+
+The goals of this project were to:
+
+- Clean and prepare real-world government data
+- Compare household income across New Zealand regions
+- Create informative visualisations
+- Practice exploratory data analysis using Python
+
+---
+
+## Tools Used
 
 - Python
 - Pandas
@@ -30,30 +43,51 @@ The analysis explores regional differences in household income, compares average
 - Matplotlib
 - Jupyter Notebook
 
-## Skills Demonstrated
+---
 
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Data Visualisation
-- Data Wrangling
-- Statistical Interpretation
-
-## Key Findings
-
-- Auckland recorded the highest average household income.
-- Wellington ranked second in average household income.
-- Average household income exceeded median household income across all regions.
-- Household income decreases when moving from gross income to after-housing-cost income.
-
-## Repository Structure
+## Project Structure
 
 ```
-data/
-figures/
-housing_income_analysis.ipynb
-README.md
+NZ-household-income-analysis/
+│
+├── data/
+├── figures/
+├── housing_income_analysis.ipynb
+└── README.md
 ```
 
-## Project Status
+---
 
-🚧 In Progress – Additional visualisations and analysis are being added.
+## Key Visualisations
+
+The project includes visualisations comparing:
+
+- Average household income by region
+- Average vs median household income
+- Different household income measures across New Zealand
+
+---
+
+## Key Insights
+
+Some regions consistently report higher household incomes than others, while comparing average and median income highlights differences in income distribution. The analysis also shows how housing costs influence disposable household income.
+
+---
+
+## Future Improvements
+
+Future work could include:
+
+- Additional statistical analysis
+- Time series analysis of household income trends
+- Machine learning models for income prediction
+
+---
+
+## Author
+
+**Naysa Maria Manu**
+
+BSc Data Science
+
+Victoria University of Wellington
